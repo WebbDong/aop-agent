@@ -17,8 +17,6 @@ import lombok.NoArgsConstructor;
 @Builder
 public class AopAdvice implements Comparable<AopAdvice> {
 
-    public static final String METHOD_ATTRIBUTE_NAME = "method";
-
     /**
      * 通知类型
      */
